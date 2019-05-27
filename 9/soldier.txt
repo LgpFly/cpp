@@ -1,0 +1,82 @@
+class Soldier{
+public:
+    Soldier(int soldierNo,int bloodNum)
+    :_soldierNo(no)
+    ,_bloodNum(bloodNum)
+    {}
+    int getSoldierNo(){
+        return _soldierNo;
+    }
+
+private:
+    int _soldierNo;
+    int _bloodNum;
+
+};
+
+class Dragon
+:public Soldier
+{
+public:
+    Dragon(int soldierNo,int booldNum,double shiqi)
+    :Soldier(soldierNo,booldNum)
+    ,_shiqi(shiqi)
+    {}
+    
+    
+
+private:
+    Sword||Bomb||arrow//看soldierNo而定。
+    double _shiqi
+};
+
+class Ninja
+:public Soldier{
+
+public:
+    Ninja(int soldierNo,int booldNum)
+    :Soldier(soldierNo,booldNum)
+    {}
+
+private:
+    Sword||Bomb||arrow//看soldierNo而定。
+    Sword||Bomb||arrow//看soldierNo而定。
+};
+
+class Iceman
+:public Soldier
+{
+public:
+    Iceman(int soldierNo,int booldNum)
+    :Soldier(soldierNo,booldNum)
+    {}
+    
+    
+
+private:
+    Sword||Bomb||arrow//看soldierNo而定。
+};
+
+class Lion
+:public Soldier
+{
+public:
+    Lion(int soldierNo,int booldNum)
+        :Soldier(soldierNo,booldNum){
+
+        }
+
+private:
+    int _zhongcheng;
+};
+
+class Wolf
+:public Soldier
+{
+public:
+    Wolf(int soldierNo,int booldNum)
+    :Soldier(soldier,booldNum)
+    {
+
+    }
+}
